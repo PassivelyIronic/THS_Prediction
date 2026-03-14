@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# dane
+data/*
+processed/*
+results/*
+
+# zostaw same foldery
+!data/.gitkeep
+!processed/.gitkeep
+!results/.gitkeep
