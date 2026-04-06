@@ -69,14 +69,14 @@ VITAL_RANGES = {
     'SBP':  (30,  250), # 50,
     'DBP':  (20,  150),
     'MBP':  (30,  200),
-    'RESP': (5,   60), # , 50
+    'RESP': (5,   80), # , 50
     'TEMP': (25,  42),    # °C 30, 
     'SpO2': (50,  100),
 }
 
 LAB_RANGES = {
-    'Hemoglobin':  (3,   20), !!!
-    'Hematocrit':  (10,  65),
+    'Hemoglobin':  (3,   20), # na 2 lub 2.5!!!
+    'Hematocrit':  (5,  65),
     'WBC':         (0,   200), # , 50
     'RBC':         (1,   8),
     'Platelets':   (0,   1500), # ,1000
