@@ -121,6 +121,9 @@ PUB_XGB_PARAMS = {
     ),
 }
 
+# ── Cechy EKG
+ECG_COLS = ['ECG_RMSSD', 'ECG_SDNN', 'ECG_pNN50', 'ECG_MISSING']
+
 # ── Feature categories ─────────────
 FEATURE_CATEGORIES = {
     'Vital Signs':   ['HR', 'SBP', 'DBP', 'RESP', 'TEMP'],   # 5 × 3 timesteps = 15
